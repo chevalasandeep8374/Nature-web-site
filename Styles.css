@@ -1,0 +1,59 @@
+  html{
+    scroll-behavior: smooth;
+  }
+ .navbar-nav{
+   font-size: large;
+ }
+ .nav-item{
+  margin-left: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .navbar-brand{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+  .nav-item a:hover{
+  border-radius: 30px;
+  background-color:rgb(60, 255, 0);
+ }
+ 
+ .navbar{
+  position: sticky;
+  top: 0;
+  z-index: 99 ;
+ }
+ /*.btn{
+  position: absolute;
+  right: 50px
+ 
+ };*/
+ .container{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .photos img{
+  box-shadow: 0 0 10px black;
+  border-radius: 5px;
+ }
+  .text-success{
+    text-align: center;
+  }
+  footer p{
+    text-decoration: underline;
+  }
+   
+  .footer a:hover{
+    text-decoration: underline;
+    color: orangered;
+  }
+  .more{
+    position: absolute;
+    
+    
+    font-size: large;
+   
+  }
+  .more a :hover{
+    text-decoration: underline;
+    color: red;
+  }
+ 
