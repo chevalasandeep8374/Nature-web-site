@@ -4,63 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-
-    <!-- Wrong file name to trigger reviewer -->
-    <link rel="stylesheet" href="Styles for Login Pagee.css">
-
+    <link rel="stylesheet" href="Styles for  Login Page.css">
     <link rel="stylesheet" href="bootstrap/css/all.css">
-    <script src="bootstrap/js/all.js" async></script>
-    
-    <!-- Should not use async for custom script – intentional issue -->
+    <script src="bootstrap/js/all.js" async></script>   
     <script src="s.js" async></script>
 </head>
 <body>
-
-<div class="form">
-
-    <!-- Missing closing div for form-header -->
-    <div class="form-header">
+    <div class="form">
+        <div class="form-header">
         <h2>Login Page</h2>
-
-    <!-- Form starts outside the main wrapper – intentional issue -->
-<form id="form-register">
-    <div id="form-body">
-
-        <span class="icon">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-        </span>
-        <label class="form-email"> Email </label>
-
-        <!-- Missing name attribute & missing required -->
-        <input class="form1" type="email" id="emailbox" placeholder="Enter Email Id">
-
-        <div id="emailbox-feedback"></div>
-
-        <span class="icon">
-            <i class="fa fa-lock"></i>
-        </span>
-        <label class="form-password">Password</label>
-
-        <!-- Wrong class name “password” used as class; missing required -->
-        <input class="password" type="password" id="password" placeholder="Enter Password">
-
-        <div id="password-feedback"></div>
-
     </div>
+   <form id="form-register">
+     <div id="form-body">
+    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+    <label class="form-email"  >Email</label>
+    <input class="form1 " type="email"id="emailbox" placeholder="Enter Email Id" > <br>
+    <div id="emailbox-feedback"></div>
+    <span class="icon"><i class="fa fa-lock"></i></span>
+    <label class="form-password" >Password</label>
+    <input class="password" type="password"  id="password"placeholder="Enter Password" aria-label="Text input with checkbox" >
+    <div id="password-feedback"></div>
+     
+             
+                          
 
-    <!-- Inline onclick (bad practice) -->
-    <div class="Button" onclick="loginpage()">
-        <button type="button">Submit</button>
-    </div>
-
-    <div class="register">
-        <p>Don't have an account?
-            <!-- Incorrect URL format -->
-            <a href="Registration Form.html">Register</a>
-        </p>
-    </div>
-
-</div> <!-- Missing closing tag for form -->
-
+                    
+</div>
+<div class="Button" onclick="loginpage()">
+     <button>Submit</button> 
+</div>
+<div class="register">
+    <p>Don't have an account?<a href="http://127.0.0.1:5500/Registration%20Form.html#">Register</a></p>
+</div>
+</div></form>
 </body>
 </html>
